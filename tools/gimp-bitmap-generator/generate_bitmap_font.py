@@ -5,6 +5,7 @@ from gimpfu import *
 
 def generate_bitmap_font(timg, tdrawable, font, font_size, first_char, glyph_width, glyph_height, antialias):
 	char_begin = int(first_char)
+	testando
 	char_end = 256
 	num_chars = char_end - char_begin
 	width = int(glyph_width) * 16
